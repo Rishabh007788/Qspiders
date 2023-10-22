@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0% ;
+}
+.main{
+    height: 608px;
+    width: auto;
+    border: 1px solid black;
+    background-image: linear-gradient(to LEFT bottom, #1b357dfa 8%, #3f434e, #000000);
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";;
+    
+}
+
+.cont{
+    height: 272px;
+    width: 385px;
+    margin-top: 179px;
+    margin-left: 36.5%;
+    border: 1px solid black;
+    border-radius: .25rem;
+    border: px solid black;
+    background-color: #111827b3;
+    color: white;
+
+}
+.heading{
+    height: 40px;
+    width: 348px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(249 115 22);
+    padding-top: 6px;
+    margin-left: 18px;
+    border-bottom: 2px solid white;
+}
+.cont2{
+    height: 130px;
+    width: 360px;
+    border: 0px solid red;
+    margin-top: 15px;
+    margin-left: 10px;
+    display: flex;
+}
+#countcode{
+    height: 30px;
+    width: 110px;
+    border: 0px solid blueviolet;
+    
+}
+#ctcl{
+    color: rgb(249 115 22);
+}
+#selectcode{
+    height: 30px;
+    width: 130px;
+    margin-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+#code{
+    height: 38px;
+    width: 120px;
+    font-size: 15px;
+    background-color: #242730;
+    border: 1px solid rgb(183, 179, 179);
+    border-radius: 3px;
+    color: rgb(236, 232, 232);
+}
+#countcode>p{
+    margin-top: 8px;
+    font-size: 13px;
+    margin-left: 3px;
+}
+
+
+#Mno{
+    height: 130px;
+    width: 230px;
+    margin-left: 30px;
+   
+    border: 0px solid blue;
+}
+label{
+   color:  rgb(249 115 22);
+}
+input{
+    height: 38px;
+    width: 210px;
+    font-size: 15px;
+    background-color: #242730;
+    border: 1px solid rgb(183, 179, 179);
+    border-radius: 4px;
+    margin-top: 5px;
+    padding-left: 5px;
+    color: aliceblue;
+}
+#Mno>p{
+    margin-top: 8px;
+    font-size: 13px;
+    margin-left: 3px;
+}
+
+#submit{
+    height: 35px;
+    width: auto;
+    border-top: 0px solid rgb(235, 43, 43);
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+#sub{
+    height: 35px;
+    width: 100px;
+    background-color: #242730;
+    color: white;
+    font-weight: 600;
+    border: none;
+}
+
+#sub:hover{
+    border:groove gray;
+}
+#bt{
+    height: 45px;
+    width: 374px;
+    margin-top: 5px;
+    border-top: 1px solid rgb(129, 125, 125);
+    margin-left: 5px;
+}
+
+

@@ -1,0 +1,351 @@
+body{
+    background-color: rgb(252, 250, 250);
+}
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: "Lato",sans-serif;
+}
+nav{
+    height: 50px;
+    width: auto;
+    border: 0px solid black;
+    box-shadow: 0 2px 0 0 #f5f5f5;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    font-family: "Lato",sans-serif;
+    font-size: 1rem;
+    position: sticky;
+    top: 0px;
+}
+#logo>img{
+    height: 60px;
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 10px;
+    z-index: 1;
+}
+#hm-enq{
+    height: 50px;
+    width: auto;
+    border: 0px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1rem;
+    flex-grow: 1;
+}
+
+#hm{
+    height: 48px;
+    width: 100px;
+    text-align: center;
+    padding-top: 15px;
+    
+}
+#hm:hover{
+    background-color: #fbfafa;
+    color: #ff9800;
+}
+
+#nv{
+    text-decoration: none;
+    color: rgb(74, 73, 73);
+}
+#cr{
+    height: 48px;
+    width: 110px;
+    text-align: center;
+    padding: 15px;
+    padding-top: 14px;
+}
+#cr:hover{
+    background-color: #fbfafa;
+    color: #ff9800;
+}
+#bt{
+    
+    height: 48px;
+    width: auto;
+    text-align: center;
+    padding: 10px;
+    padding-top: 14px;
+    
+
+}
+#bt:hover{
+    background-color: #fbfafa;
+    color: #ff9800;
+}
+
+#cor{
+    height: 48px;
+    width: auto;
+    text-align: center;
+    padding: 10px;
+    padding-top: 14px;
+    
+}
+#cor:hover{
+    background-color: #fbfafa;
+    color: #ff9800;
+}
+#con{
+    height: 48px;
+    width: auto;
+    text-align: center;
+    padding: 10px;
+    padding-top: 14px;
+
+}
+#con:hover{
+    background-color: #fbfafa;
+    color: #ff9800;
+}
+
+#plc{
+    height: 48px;
+    width: auto;
+    text-align: center;
+    padding: 10px;
+    padding-top: 14px;
+    font-size: large;
+    border-bottom: 3px solid rgba(24, 61, 171, 0.879);
+    font-weight:500;
+    color: rgba(24, 61, 171, 0.879);
+    
+}
+#plc:hover{
+    background-color: #fbfafa;
+    color:rgb(33, 56, 126);
+}#enq{
+    height: 48px;
+    width: auto;
+    text-align: center;
+    padding: 10px;
+    padding-top: 14px;
+    
+    font-size: larger;
+    color: #ff9800;
+}
+#enq:hover{
+    background-color: #fbfafa;
+    color: #b06c05;
+}
+
+button{
+    height: 35px;
+    width: 75px;
+    color:#1261a0;
+    font-weight: 600;
+    border: none;
+    font-size: 17;
+}
+button:hover{
+    color: #ff8800;
+    border: 2px solid #1261a0;
+}
+
+#places{
+    height: 30px;
+    width: auto;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 0px;
+    
+}
+#pls1{
+    height: 30px;
+    width:60px;
+    color: white;
+    background-color: brown;
+}
+#pls2{
+    height: 30px;
+    
+    color: white;
+    background-color: rgb(165, 118, 42);
+}
+#pls3{
+    height: 30px;
+    color: white;
+    background-color: rgb(79, 124, 47);
+}
+#pls4{
+    height: 30px;
+    color: white;
+    background-color: rgb(42, 147, 165);
+}
+#pls5{
+    height: 30px;
+    color: white;
+    background-color: rgb(57, 69, 161);
+}
+#pls6{
+    height: 30px;
+    color: white;
+    background-color: rgb(91, 49, 148);
+}
+#pls7{
+    height: 30px;
+    color: white;
+    background-color: rgb(160, 58, 151);
+}
+#pls8{
+    height: 30px;
+    color: white;
+    background-color: rgb(165, 104, 42);
+}
+#pls9{
+    height: 30px;
+    color: white;
+    background-color: rgb(101, 21, 97);
+}
+#pls10{
+    height: 30px;
+    color: white;
+    background-color: rgb(42, 165, 151);
+}
+#pls11{
+    height: 30px;
+    color: white;
+    background-color: rgb(42, 85, 165);
+}
+#pls12{
+    height: 30px;
+    color: white;
+    background-color: rgba(33, 27, 82, 0.876);
+}
+#pls13{
+    height: 30px;
+    color: white;
+    background-color: rgb(59, 36, 81);
+}
+#pls14{
+    height: 30px;
+    color: white;
+    background-color: rgb(93, 35, 84);
+}
+#pls15{
+    height: 30px;
+    color: white;
+    background-color: rgb(16, 62, 30);
+}
+
+#heading{
+    height: 55px;
+    width: 95%;
+    margin-left: 2.7%;
+    margin-right: 2.5%;
+    background-color: black;
+    color: white;
+    border-bottom: 3px solid #ff9800;
+    border-left: 3px solid #ff9800;
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+    text-shadow: -2px 2px 5px #ff9800;
+    box-shadow: -2px 2px 5px #484644;
+    padding-top: 3px;
+    line-height: 1.6;
+    letter-spacing: 3px;
+
+}
+
+#placingyear{
+    height: 40px;
+    width: 85%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    margin-left: 1.9%;
+    margin-top: 20px;
+}
+#placingyear>div{
+    height: auto;
+    width: fit-content;
+    padding: 11px 15px 10px 15px;
+    background-color: #2A3855;
+    border-bottom: 3px solid #ff9800;
+    color: white;
+    margin-left: 15px;
+
+}
+#y3{
+    animation-name: y23;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration:alternate-reverse;
+    height: 40px;
+    width: 58px;
+}
+
+#btech{
+    height: 40px;
+    width: 85%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    margin-left: 1.9%;
+    margin-top: 20px;
+}
+#btech>div{
+    height: auto;
+    width: fit-content;
+    padding: 11px 15px 10px 15px;
+    background-color: #d08f2e;
+    border-bottom: 3px solid #ff9800;
+    color: white;
+    margin-left: 10px;
+}
+
+#statistics{
+    height: 45px;
+    width: max-content;
+    padding: 11px 18px 10px 15px;
+    background-color: rgb(234, 58, 4);
+    color: white;
+    font-size: 20px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 22.5px;
+    border-top-right-radius: 22.5px;
+    margin-top: 15px;
+    margin-left: 2.5%;
+    font-weight: 600;
+
+}
+
+#table{
+    height: 250px;
+    width: 95%;
+    margin-top: 20px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 800px 363px;
+    grid-template-rows: 62.5px 62.5px 62.5px 62.5px ;
+    color:#035106;
+    border: 1px solid black;
+}
+#table>div{
+    border: 1px solid black;
+    padding: 22px 20px;
+    font-size: 17px;
+}
+footer{
+    height: 50px;
+    width: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid gray;
+    background-color: #ede9e9;
+}
+footer>a{
+    text-decoration: none;
+}
